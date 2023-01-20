@@ -27,6 +27,12 @@
             android:layout_height="wrap_content"
             android:text="QR" />
 
+        <Button
+            android:id="@+id/btnMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MAPS" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

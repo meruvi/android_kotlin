@@ -21,5 +21,9 @@ class MainActivity : AppCompatActivity() {
         binding.btnQR.setOnClickListener {
             startActivity(Intent(this, QrActivity::class.java))
         }
+
+        binding.btnMap.setOnClickListener {
+            startActivity(Intent(this, MapsActivity::class.java))
+        }
     }
 }
