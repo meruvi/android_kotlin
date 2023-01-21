@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.meruvia.databinding.ActivityDetailBinding
 import com.meruvia.databinding.ActivityMainBinding
+import com.meruvia.retrofit.RetrofitActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -24,6 +25,10 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnMap.setOnClickListener {
             startActivity(Intent(this, MapsActivity::class.java))
+        }
+
+        binding.btnRetrofit.setOnClickListener {
+            startActivity(Intent(this, RetrofitActivity::class.java))
         }
     }
 }

@@ -33,6 +33,12 @@
             android:layout_height="wrap_content"
             android:text="MAPS and location" />
 
+        <Button
+            android:id="@+id/btnRetrofit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Retrofit 2" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
